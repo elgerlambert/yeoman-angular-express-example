@@ -2,7 +2,8 @@
   "name": "yeoman-angular-express",
   "version": "0.0.0",
   "scripts": {
-    "test": "grunt travis --verbose"
+    "test": "grunt travis --verbose",
+    "start": "node server"
   },
   "dependencies": {},
   "devDependencies": {
@@ -34,5 +35,6 @@
   },
   "engines": {
     "node": ">=0.8.0"
-  }
+  },
+  "subdomain": "mattmisc-yeoman-angular-express-example"
 }

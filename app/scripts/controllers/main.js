@@ -5,6 +5,6 @@ angular.module('yoProvisioning2App')
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
-      'Testacular'
+      'Karma'
     ];
   }]);
