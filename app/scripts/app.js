@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yoProvisioning2App', [])
+angular.module('myApp', [])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {

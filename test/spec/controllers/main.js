@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('yoProvisioning2App'));
+  beforeEach(module('myApp'));
 
   var MainCtrl,
     scope;
