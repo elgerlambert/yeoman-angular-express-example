@@ -301,7 +301,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('server', [
     'clean:server',
-    // 'coffee:dist',
+    'coffee:dist',
     // 'compass:server',
     'livereload-start',
     'connect:livereload',
@@ -311,7 +311,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', [
     'clean:server',
-    // 'coffee',
+    'coffee',
     // 'compass',
     'connect:test',
     'karma'
@@ -321,7 +321,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'jshint',
     'test',
-    // 'coffee',
+    'coffee',
     // 'compass:dist',
     'useminPrepare',
     'imagemin',
@@ -340,7 +340,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('express-server', [
     'clean:server',
-    // 'coffee:dist',
+    'coffee:dist',
     // 'compass:server',
     'livereload-start',
     'express:livereload',
@@ -350,7 +350,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('express-test', [
     'clean:server',
-    // 'coffee',
+    'coffee',
     // 'compass',
     'connect:test',
     'karma'
